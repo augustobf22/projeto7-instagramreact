@@ -1,0 +1,15 @@
+import SideBar from "./SideBar.js"
+import Stories from "./Stories.js"
+import Posts from "./Posts.js"
+
+export default function Body() {
+    return (
+        <>
+            <div className="esquerda">
+                <Stories />
+                <Posts />
+            </div>
+            <SideBar />
+        </>
+    )
+}
