@@ -1,3 +1,4 @@
-import App from "App.js"
+import ReactDOM from 'react-dom'
+import App from "./components/App"
 
-//renderizar na root
+ReactDOM.render(<App />, document.querySelector(".root"));

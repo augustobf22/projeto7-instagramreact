@@ -3,7 +3,7 @@ import Suggestions from "./Suggestions.js"
 
 export default function SideBar() {
     return (
-        <>
+        <div className="sidebar">
             <User />
             <Suggestions />
             <div class="links">
@@ -14,6 +14,6 @@ export default function SideBar() {
             <div class="copyright">
                 © 2021 INSTAGRAM DO FACEBOOK
             </div>
-        </>
+        </div>
     )
 }
